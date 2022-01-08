@@ -2,7 +2,7 @@
   src: url(fonts/Wellington-Font.ttf);
   font-family: Wellington-Font;
 }
-* {
+/* * {
   margin: 0;
   padding: 0;
 }
@@ -10,13 +10,15 @@
 .content-container {
   width: 100%;
   height: 500px;
-  /* background-image: var(--gradient);
+  background-image: var(--gradient);
   background-size: 400%;
-  animation: bg-animation 5s infinite alternate; */
+  animation: bg-animation 5s infinite alternate;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: space-around;
+} */
 :root {
   --gradient: linear-gradient(
     25deg,
@@ -25,26 +27,37 @@
     #f8d84ad2 /* #ffffffab */
   );
 }
-/* .main-heading {
+.main-heading {
   font-size: 80px;
   font-family: Wellington-Font;
-} */
-
-.content-headings {
-  font-family: Wellington-Font;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: space-around;
 }
 
-/* body {
+.content-sections {
+  font-family: Wellington-Font;
+  padding: 5px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-around;
+}
+
+body {
   background-image: var(--gradient);
   background-size: 400%;
   animation: bg-animation 5s infinite alternate;
-} */
+}
 
-/* @keyframes bg-animation {
+@keyframes bg-animation {
   0% {
     background-position: left;
   }
   100% {
     background-position: right;
   }
-} */
+}
