@@ -8,8 +8,15 @@
 }
 
 :root {
-  --gradient: linear
-    gradient(45deg, #845ec2, #d65db1, #ff6f91, #ff9671, #ffc75f, #f9f871);
+  --gradient: linear-gradient(
+    45deg,
+    #71ff90d2,
+    #73daecd2,
+    #cf72b3d2,
+    #fa8ca5d2,
+    #ffc75fd2,
+    #f8d84ad2
+  );
 }
 
 .sub-headings {
@@ -18,8 +25,9 @@
 }
 
 body {
-  background-color: #f6f0c4;
-  background-image: linear-gradient(315deg, #f6f0c4 1%, #d99ec9 74%);
+  background-image: var(--gradient);
+  /*background-color: #f6f0c4;
+  background-image: linear-gradient(315deg, #f6f0c4 1%, #d99ec9 74%); */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 30px;
