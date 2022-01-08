@@ -16,12 +16,11 @@
     25deg,
     #71ff90ab,
     #fa8ca5ab,
-    #f8d84ad2,
-    #ffffffab
+    #f8d84ad2 /* #ffffffab */
   );
 }
 
-.sub-headings {
+.content-headings {
   display: flex;
   flex-flow: column wrap;
 }
