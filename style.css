@@ -47,6 +47,14 @@
   align-content: space-around;
 }
 
+.content-headings {
+  font-size: 50px;
+}
+
+.content-info {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
   background-image: var(--gradient);
   background-size: 400%;
