@@ -85,6 +85,43 @@
   align-content: center;
 }
 
+.button {
+  width: 30em;
+  height: 3em;
+  border: none;
+  font-size: 25px;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+  box-shadow: #57a9b4 0px 20px 30px -10px;
+}
+
+.button:hover {
+  background-color: #79eefd;
+}
+
+.button:active {
+  background-color: #79eefd;
+  box-shadow: 0 5px #57a9b4;
+  transform: translateY(4px);
+}
+
+a:link {
+  color: #0125f0;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #0125f0;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #0125f0;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 body {
   background-image: var(--gradient);
   background-size: 400%;
