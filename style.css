@@ -31,7 +31,7 @@
 .main-heading {
   font-size: 45px;
   margin: 50px;
-  padding: 50px;
+  padding: 40px;
   font-family: ArtTypo-Font;
   display: flex;
   flex-flow: wrap;
@@ -44,7 +44,7 @@
   font-size: 30px;
   line-height: 1.6;
   margin: 50px;
-  padding: 50px;
+  padding: 40px;
   display: flex;
   flex-flow: wrap;
   justify-content: center;
