@@ -39,6 +39,13 @@
   align-items: center;
 }
 
+.top-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .sub-heading {
   font-family: ArtTypo-Font;
   font-size: 30px;
@@ -120,6 +127,11 @@ a:hover {
   color: #0125f0;
   background-color: transparent;
   text-decoration: underline;
+}
+
+.end-image {
+  max-width: 100%;
+  height: auto;
 }
 
 ul {
