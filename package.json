@@ -1,0 +1,19 @@
+{
+  "name": "wedding-info-website",
+  "version": "1.0.0",
+  "description": "A website for wedding information",
+  "main": "dist",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catherine-butler/wedding-info-website.git"
+  },
+  "author": "Cat Butler <catbutler_@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catherine-butler/wedding-info-website/issues"
+  },
+  "homepage": "https://github.com/catherine-butler/wedding-info-website#readme"
+}
