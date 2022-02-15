@@ -1,5 +1,5 @@
 @font-face {
-  src: url(fonts/ArtTypo-Font.ttf);
+  src: url(dist/fonts/ArtTypo-Font.ttf);
   font-family: ArtTypo-Font;
 }
 * {
